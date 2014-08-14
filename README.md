@@ -1,4 +1,4 @@
-# BOSH Release for cassandra
+# BOSH Release for cassandra-hybris
 
 ## Usage
 
@@ -6,9 +6,9 @@ To use this bosh release, first upload it to your bosh:
 
 ```
 bosh target BOSH_HOST
-git clone https://github.com/cloudfoundry-community/cassandra-boshrelease.git
-cd cassandra-boshrelease
-bosh upload release releases/cassandra-1.yml
+git clone https://stash.hybris.com/scm/idefix/bosh-release-cassandra.git
+cd bosh-release-cassandra
+bosh upload release releases/cassandra-hybris-1.yml
 ```
 
 For [bosh-lite](https://github.com/cloudfoundry/bosh-lite), you can quickly create a deployment manifest & deploy a cluster:
