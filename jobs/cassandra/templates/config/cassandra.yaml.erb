@@ -224,7 +224,8 @@ seed_provider:
       parameters:
           # seeds is actually a comma-delimited list of addresses.
           # Ex: "<ip1>,<ip2>,<ip3>"
-          - seeds: "<%= p('cassandra.cluster.members').flatten.join(",") %>"
+          <% _members = p('cassandra.cluster.members') %>
+          - seeds: "<%= _members.kind_of?(Array) ? _members.flatten.join(",") : _members.to_s %>"
 
 # For workloads with more data than can fit in memory, Cassandra's
 # bottleneck will be reads that need to fetch data from
