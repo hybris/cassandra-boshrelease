@@ -1,6 +1,9 @@
 ---
 cassandra/apache-cassandra-2.0.9-bin.tar.gz:
   object_id: 4f693646-ce9e-49c6-a06f-c4ff0015b545
-  sha: !binary |-
-    NDllZWI0YzFkZDUxOGJkOTQ0MDI4MGE3NThhZDRiMTI5NzY5YTc4ZA==
+  sha: 49eeb4c1dd518bd9440280a758ad4b129769a78d
   size: 17951286
+java7/openjdk-1.7.0_65.tar.gz:
+  object_id: 10631709-48ea-4804-81fb-92a222c3b98f
+  sha: 8e6d34305e11bd151e458af0125411a4e1797e80
+  size: 67008821
