@@ -5,4 +5,4 @@ dependencies:
   - java7
 
 files:
-  - cassandra/apache-cassandra-2.0.9-bin.tar.gz
+  - cassandra/apache-cassandra-2.1.2-bin.tar.gz
