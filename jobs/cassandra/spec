@@ -2,7 +2,7 @@
 name: cassandra
 
 packages:
-  - java7
+  - java
   - cassandra
 
 templates:
