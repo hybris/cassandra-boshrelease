@@ -8,6 +8,7 @@ To use this bosh release, first upload it to your bosh:
 bosh target BOSH_HOST
 git clone https://github.wdf.sap.corp/wombats/bosh-release-cassandra.git
 cd bosh-release-cassandra
+git submodule update --init --recursive # to update packages/java submodule
 bosh upload release releases/cassandra-hybris-1.yml
 ```
 
