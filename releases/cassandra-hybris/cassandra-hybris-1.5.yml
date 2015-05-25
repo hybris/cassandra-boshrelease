@@ -1,0 +1,22 @@
+---
+packages:
+- name: cassandra
+  version: 462cdaeebf0c2a08d2a6c3121b33831c4f805474
+  sha1: 897076d9c57dff55a62ef81b665d92e2718edf84
+  fingerprint: 462cdaeebf0c2a08d2a6c3121b33831c4f805474
+  dependencies:
+  - java
+- name: java
+  version: 64f09b3eac50dca8c6f48f57d85833f1c15f3d7d
+  sha1: 4d746821bfdbe30e218c1b59aeabe865b55590c1
+  fingerprint: 64f09b3eac50dca8c6f48f57d85833f1c15f3d7d
+  dependencies: []
+jobs:
+- name: cassandra
+  version: 7f016c4931d2d8822a60577946fe3538e6a6410a
+  fingerprint: 7f016c4931d2d8822a60577946fe3538e6a6410a
+  sha1: 8781d5da067b38e72b408eed222b6926b0fab5e6
+commit_hash: d0ee05e1
+uncommitted_changes: true
+name: cassandra-hybris
+version: '1.5'
