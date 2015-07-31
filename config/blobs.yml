@@ -1,9 +1,9 @@
 ---
-java/openjdk-jre-trusty-1.7.0_65.tar.gz:
-  object_id: 9998c9fc-2a59-408f-84ed-71e0688f1247
-  sha: 65f4e665b0a736e861fedaa60560ba72ed19474c
-  size: 31606629
 cassandra/apache-cassandra-2.1.8-bin.tar.gz:
-  object_id: 1d389231-f202-4f3d-affa-6f33ac75319c
+  object_id: 0a47696b-6e9d-4d81-9840-1927d0f961c8
   sha: 8fc0b4763487656793e9cb6016b939e0260e057e
   size: 24592258
+java/openjdk-jre-trusty-1.7.0_65.tar.gz:
+  object_id: 7ee4539b-e8a1-4674-a906-0a0d5e03d188
+  sha: 65f4e665b0a736e861fedaa60560ba72ed19474c
+  size: 31606629

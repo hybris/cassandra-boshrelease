@@ -2,7 +2,7 @@ meta:
   environment: cassandra-warden
 
   stemcell:
-    name: bosh-warden-boshlite-ubuntu-lucid-go_agent
+    name: bosh-warden-boshlite-ubuntu
     version: latest
 
 update:
@@ -12,16 +12,9 @@ update:
   update_watch_time: 1000-30000
 
 jobs:
-  - name: cassandra_z1
-    instances: 1
+  - name: cassandra
     networks:
       - name: cassandra1
-        static_ips: ~
-    properties:
-      cassandra:
-        cluster:
-          name: cassandra
-          members: 127.0.0.1
 
 compilation:
   cloud_properties:

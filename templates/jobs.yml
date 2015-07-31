@@ -9,15 +9,14 @@ update:
   serial: false
 
 jobs:
-  - name: cassandra_z1
-    template: cassandra
-    instances: 0
+  - name: cassandra
+    templates:
+    - name: cassandra
+      release: cassandra
+    instances: 1
+    persistent_disk: 0
     resource_pool: small_z1
     networks: (( merge ))
-    persistent_disk: 0
-    update:
-      canaries: 10
-    properties: {}
 
 networks: (( merge ))
 

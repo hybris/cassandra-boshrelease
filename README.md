@@ -1,4 +1,4 @@
-# BOSH Release for cassandra-hybris
+# BOSH Release for cassandra
 
 ## Usage
 
@@ -6,10 +6,9 @@ To use this bosh release, first upload it to your bosh:
 
 ```
 bosh target BOSH_HOST
-git clone https://github.wdf.sap.corp/wombats/bosh-release-cassandra.git
-cd bosh-release-cassandra
-git submodule update --init --recursive # to update packages/java submodule
-bosh upload release releases/cassandra-hybris-1.yml
+git clone https://github.com/hybris/cassandra-boshrelease
+cd cassandra-boshrelease
+bosh upload release releases/cassandra-1.yml
 ```
 
 For [bosh-lite](https://github.com/cloudfoundry/bosh-lite), you can quickly create a deployment manifest & deploy a cluster:

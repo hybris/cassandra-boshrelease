@@ -9,16 +9,10 @@ meta:
     version: latest
 
 jobs:
-  - name: cassandra_z1
-    instances: 1
+  - name: cassandra
     networks:
       - name: cassandra1
     persistent_disk: (( meta.persistent_disk ))
-    properties:
-      cassandra:
-        cluster:
-          name: cassandra
-          members: 127.0.0.1
 
 compilation:
   cloud_properties:
