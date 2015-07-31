@@ -1,14 +1,20 @@
-# BOSH Release for cassandra
+BOSH release to run cassandra
+=======================
 
-## Usage
+Background
+----------
+
+### What is cassandra?
+
+cassandra aggregates events from your servers and applications with a powerful stream processing language. Send an email for every exception in your app. Track the latency distribution of your web app. See the top processes on any host, by memory and CPU. Combine statistics from every Riak node in your cluster and forward to Graphite. Track user activity from second to second.
+
+Usage
+-----
 
 To use this bosh release, first upload it to your bosh:
 
 ```
-bosh target BOSH_HOST
-git clone https://github.com/hybris/cassandra-boshrelease
-cd cassandra-boshrelease
-bosh upload release releases/cassandra-1.yml
+bosh upload release https://github.com/hybris/cassandra-boshrelease
 ```
 
 For [bosh-lite](https://github.com/cloudfoundry/bosh-lite), you can quickly create a deployment manifest & deploy a cluster:
@@ -31,7 +37,7 @@ For AWS & Openstack, the default deployment assumes there is a `default` securit
 
 Create a file `my-networking.yml`:
 
-``` yaml
+```yaml
 ---
 networks:
   - name: cassandra1
