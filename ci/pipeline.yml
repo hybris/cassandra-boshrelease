@@ -156,7 +156,6 @@ resources:
   source:
     uri: {{pipeline-git-repo}}
     branch: {{pipeline-branch}}
-    private_key: {{github-private-key}}
 
 - name: git-cassandra-boshrelease-release-changes
   type: git
