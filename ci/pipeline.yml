@@ -154,15 +154,15 @@ resources:
 - name: git-cassandra-boshrelease
   type: git
   source:
-    uri: git@github.com:hybris/cassandra-boshrelease.git
-    branch: master
+    uri: {{pipeline-git-repo}}
+    branch: {{pipeline-branch}}
     private_key: {{github-private-key}}
 
 - name: git-cassandra-boshrelease-release-changes
   type: git
   source:
-    uri: https://github.com/hybris/cassandra-boshrelease.git
-    branch: master
+    uri: {{pipeline-git-repo}}
+    branch: {{pipeline-branch}}
     paths:
       - src/**/*
       - jobs/**/*
@@ -190,8 +190,8 @@ resources:
 - name: git-boshrelease
   type: git
   source:
-    uri: https://github.com/hybris/cassandra-boshrelease.git
-    branch: master
+    uri: {{pipeline-git-repo}}
+    branch: {{pipeline-branch}}
     paths: [ci/ci_image/*]
 
 - name: docker-image
