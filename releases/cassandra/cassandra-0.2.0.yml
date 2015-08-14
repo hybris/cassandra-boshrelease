@@ -1,0 +1,38 @@
+---
+packages:
+- name: cassandra
+  version: !binary |-
+    NGEzM2E1ZTY4NGYzM2UwZDU3YmU1NTA3YjYxMmRiOGY5ZDIxYjc3Ng==
+  fingerprint: !binary |-
+    NGEzM2E1ZTY4NGYzM2UwZDU3YmU1NTA3YjYxMmRiOGY5ZDIxYjc3Ng==
+  sha1: !binary |-
+    ZDgzZjA4NjM1MGQ0YTEyYzEwMWRkMjk3MGYyY2MwYWUzNTY3MTQyYw==
+  dependencies:
+  - java
+- name: java
+  version: !binary |-
+    NjRmMDliM2VhYzUwZGNhOGM2ZjQ4ZjU3ZDg1ODMzZjFjMTVmM2Q3ZA==
+  fingerprint: !binary |-
+    NjRmMDliM2VhYzUwZGNhOGM2ZjQ4ZjU3ZDg1ODMzZjFjMTVmM2Q3ZA==
+  sha1: !binary |-
+    ODJmZjU1ZWJmZTcyOGUzZmU2NzZkMmYxMGE3MTQxOGE2NjZhYzExOA==
+  dependencies: []
+jobs:
+- name: cassandra
+  version: !binary |-
+    MjkxZWYyMmQ3ZDcxZjk3OTkxM2Y5MTI4YzIyMDNiYjExYTc2MmIwNw==
+  fingerprint: !binary |-
+    MjkxZWYyMmQ3ZDcxZjk3OTkxM2Y5MTI4YzIyMDNiYjExYTc2MmIwNw==
+  sha1: !binary |-
+    NzIzOTVhMDM0NjI5YjdiZTc2NTM5NDc1YWQwNmJkYmE3NTUxOWE5Zg==
+license:
+  version: !binary |-
+    NTY5YTQ4MTY2M2Y5NWIxMGNiODAzNTM5YmE2MWE4YzI0YTg4MTQ2Mw==
+  fingerprint: !binary |-
+    NTY5YTQ4MTY2M2Y5NWIxMGNiODAzNTM5YmE2MWE4YzI0YTg4MTQ2Mw==
+  sha1: !binary |-
+    ZDk1ZmIxY2ViNWRjNzM2MjM4YzFjODU2ODJkYWU1NGU3Nzc4YmM5OQ==
+commit_hash: 04e2b0e0
+uncommitted_changes: false
+name: cassandra
+version: 0.2.0
